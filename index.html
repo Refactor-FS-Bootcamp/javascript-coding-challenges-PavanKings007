@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AssigmentJS</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <body> 
+    <div id="problems">
+  <h2>1.Sum of odd numbers from 10 to 30 ?</h2> 
+  <label>Enter a number in between 10 to 30 :</label> 
+  <br> 
+  <input type="number" id="oddInput"> 
+  <br> <button onclick="sumOddNums()">Click here for odd sum Q</button> 
+  <br> 
+  <!-- .................................................................... -->
+  <h2>2.Avg of the number Elements in an Array ?</h2>
+  <label>Enter a size or length of an Array :</label> 
+  <br> 
+  <input type="number" id="arrLength2Q"> 
+  <br> 
+ <label>Enter the numbers or elements according to the Array length :</label> 
+  <br> 
+  <input type="number" id="enterEle2Q"> <button id="enterNum2Q" onclick="add()">Add</button>
+  <br> <button onclick="avgNum()" >Click here for Avg of an Array</button> 
+  <br> 
+  <!-- .................................................................... -->
+  <h2>3.Return the positive number Elements Array ?</h2>
+   <label>Enter a size or length of an Array :</label> 
+  <br> 
+  <input type="number" id="arrLength3Q"> 
+  <br>
+ <label>Enter the numbers or elements according to the Array length both -tive and +tive :</label> 
+  <br> 
+  <input type="number" id="enterEle3Q"> <button id="enterNum3Q" onclick="add3()">Add</button>
+  <br> 
+  <button onclick="postiveArray()">Click here for positive Array</button> 
+  <br> 
+  <!-- ...................................................................... -->
+  <h2>4. Rotate an Array to the left 1 position ?</h2>
+   <label>Enter a size or length of an Array :</label> 
+  <br> 
+  <input type="number" id="arrLength4Q"> 
+  <br>
+ <label>Enter the numbers or elements according to the Array length :</label> 
+  <br> 
+  <input type="number" id="enterEle4Q"> <button id="enterNum4Q" onclick="add4()">Add</button>
+  <br> 
+  <button  onclick="shift1Left()">Click here for rotated Array</button> 
+   <br> 
+   <!-- .................................................................... -->
+  <h2>5. Reverse an Array ?</h2>
+   <label>Enter a size or length of an Array :</label> 
+  <br> 
+  <input type="number" id="arrLength5Q"> 
+  <br>
+ <label>Enter the numbers or elements according to the Array length :</label> 
+  <br> 
+  <input type="text" id="enterEle5Q"> <button id="enterNum5Q" onclick="add5()">Add</button>
+  <br> 
+  <button onclick="reverseArray()">Click here for reversed Array</button> 
+  <br> 
+  <!-- ..................................................................... -->
+  <h2>6. Reverse a String ?</h2>
+  <br>
+ <label>Enter a name or String :</label> 
+  <br> 
+  <input type="text" id="enterAstring"> 
+  <br> 
+  <button onclick="reverseString()">Click here for reversed String</button> 
+  <br> 
+  <!-- ......................................................................... -->
+  <h2>7. Unique Arrays Elements ?</h2>
+  <label>Enter size or length of the Array-1:</label> 
+  <br> 
+  <input type="number" id="arrLength7.1Q"> 
+  <br>
+ <label>Enter Array-1 :</label> 
+  <br> 
+  <input type="numbers" id="enterEle7.1Q"> <button id="enterNum7.1Q" onclick="add7$1()">Add</button>
+  <br> 
+    <label>Enter size or length of the Array-2:</label> 
+  <br> 
+  <input type="number" id="arrLength7.2Q"> 
+    <br>
+    <label>Enter Array-2 :</label> 
+  <br> 
+  <input type="numbers" id="enterEle7.2Q"> <button id="enterNum7.2Q" onclick="add7$2()">Add</button>
+    <br>
+  <button onclick="unique()">Click here for unique array elements</button>
+</div> 
+<div id="result">
+ <h1 >Result :</h1> 
+ <h3 id="solution"></h3>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
